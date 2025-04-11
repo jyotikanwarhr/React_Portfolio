@@ -1,11 +1,16 @@
-import Card from "../components/Card";
+import Card from "../components/Card.jsx";
+import ReadMeGenerator from "../assets/ReadMeGenerator.png";
 
 function Portfolio() {
 
     const projects = [
         {
-            title: "Project 1",
-            description: "Description for project 1",
+            title: "ReadMe Generator",
+            description: "Creates a professional README file for the project",
+            image: ReadMeGenerator,
+            github: "https://github.com/jyotikanwarhr/readMeGenerator/tree/main",
+            deploy: "https://drive.google.com/file/d/1SUPSOk7X5N1RQ9Ki83lowmM4MeiV8Eu3/view"
+
         }, 
         {
             title: "Project 2",

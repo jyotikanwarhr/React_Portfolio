@@ -22,3 +22,7 @@ main {
   flex-wrap: wrap;
   background-color: bisque;
 }
+
+.pointer {
+  cursor: pointer !important;
+}

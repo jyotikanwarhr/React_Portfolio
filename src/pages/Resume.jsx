@@ -20,8 +20,8 @@ function Resume() {
                 <li>MBA in HR and Marketing from Indian Institute of Planning and Development (2005 - 2007)</li>
                 <li>Software Engineering Bootcamp (2025)</li>
             </ul>
-            <a href="#"> 
-                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            <a href="./Resume.pdf" download> 
+                <button className="pointer bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                     Download Resume
                 </button>
             </a>

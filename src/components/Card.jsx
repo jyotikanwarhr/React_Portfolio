@@ -4,7 +4,7 @@ function Card({project}) {
             <div className="mx-4 -mt-6 h-56 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40">
                 <img
                     className="card-image"
-                    src="https://images.unsplash.com/photo-1540553016722-983e48a2cd10?ixlib=rb-1.2.1&amp;ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=80"
+                    src={project?.image}
                     alt="img-blur-shadow"
                     layout="fill"
                 />
@@ -18,13 +18,25 @@ function Card({project}) {
                 </p>
             </div>
             <div className="p-6 pt-0">
+                <a href = {project?.github}>
                 <button
-                    className="select-none rounded-lg bg-pink-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
+                    className="pointer rounded-lg bg-pink-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:opacity-50 disabled:shadow-none"
                     type="button"
                     data-ripple-light="true"
                 >
-                    Read More
+                    Git Hub
                 </button>
+                </a>
+                <a href = {project?.deploy}>
+                <button
+                    className="pointer rounded-lg bg-pink-500 py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-white shadow-md shadow-pink-500/20 transition-all hover:shadow-lg hover:shadow-pink-500/40 focus:opacity-[0.85] focus:shadow-none active:opacity-[0.85] active:shadow-none disabled:opacity-50 disabled:shadow-none"
+                    type="button"
+                    data-ripple-light="true"
+                >
+                    Deploy
+
+                </button>
+                </a>
             </div>
         </div>
     )
