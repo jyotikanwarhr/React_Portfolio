@@ -13,16 +13,21 @@ function Portfolio() {
 
         }, 
         {
-            title: "Project 2",
-            description: "Description for project 2",
+            title: "Weather Dashboard",
+            description: "A weather dashboard that provides current weather and 5-day forecast",
+            image: weatherdashboard,
+            github: "https//github.com/jyotikanwarhr/WeatherForecast",
+            deploy: "https//weatherforecast-un8n.onrender.com"
         },
+
         {
-            title: "Project 3",
-            description: "Description for project 3",
+            title: "Vehicle Builder",
+            description: "A vehicle builder application that allows users to customize and build their dream vehicles.",
+            image: vehiclebuilder,
+            github: "https://github.com/jyotikanwarhr/VehicleBuilderTypescript/tree/main?tab=readme-ov-file",
+            deploy: "https://drive.google.com/file/d/1CTp2SA8x-3yNIL0SP61FQR713B0A21g6/view"
         }
     ]
-
-
     return (
         <div>
             <h1>This is the Portfolio Page</h1>
