@@ -1,5 +1,8 @@
 import Card from "../components/Card.jsx";
 import ReadMeGenerator from "../assets/ReadMeGenerator.png";
+import WeatherForecast from "../assets/WeatherForecast.png";
+import VehicleBuilder from "../assets/VehicleBuilder.png";
+
 
 function Portfolio() {
 
@@ -13,17 +16,17 @@ function Portfolio() {
 
         }, 
         {
-            title: "Weather Dashboard",
+            title: "WeatherForecast ",
             description: "A weather dashboard that provides current weather and 5-day forecast",
-            image: weatherdashboard,
+            image: WeatherForecast,
             github: "https//github.com/jyotikanwarhr/WeatherForecast",
             deploy: "https//weatherforecast-un8n.onrender.com"
         },
 
         {
-            title: "Vehicle Builder",
+            title: "VehicleBuilder",
             description: "A vehicle builder application that allows users to customize and build their dream vehicles.",
-            image: vehiclebuilder,
+            image: VehicleBuilder,
             github: "https://github.com/jyotikanwarhr/VehicleBuilderTypescript/tree/main?tab=readme-ov-file",
             deploy: "https://drive.google.com/file/d/1CTp2SA8x-3yNIL0SP61FQR713B0A21g6/view"
         }
