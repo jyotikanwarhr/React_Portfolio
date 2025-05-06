@@ -19,8 +19,8 @@ function Portfolio() {
             title: "WeatherForecast ",
             description: "A weather dashboard that provides current weather and 5-day forecast",
             image: WeatherForecast,
-            github: "https//github.com/jyotikanwarhr/WeatherForecast",
-            deploy: "https//weatherforecast-un8n.onrender.com"
+            github: "https://github.com/jyotikanwarhr/WeatherForecast",
+            deploy: "https://weatherforecast-un8n.onrender.com"
         },
 
         {
@@ -40,9 +40,9 @@ function Portfolio() {
                 
                 <Card project={projects[0]}/>
                 <Card project={projects[1]}/>
-                <Card />
-                <Card />
-                <Card />
+                <Card project={projects[2]}/>
+                {/* //<Card />
+                //<Card /> */}
 
             </div>
 
