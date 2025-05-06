@@ -27,7 +27,7 @@ Currently, two official plugins are available:
 
   ## Installation
   
-  1. Git clone: 
+  1. Git clone: https://github.com/jyotikanwarhr/React_Portfolio
 
   2. Navigate to the project directory: cd React-Portfolio
 
@@ -80,7 +80,7 @@ Currently, two official plugins are available:
 
 
   ## URL Link
-   Here is the URL link to the deployed application: 
+   Here is the URL link to the deployed application: https://jyoti26.netlify.app/
   
   ## Contributing
   No contributions are needed for this project
